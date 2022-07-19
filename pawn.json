@@ -1,0 +1,19 @@
+{
+    "user": "levcito",
+    "repo": "Nativechecker",
+    "resources": [
+        {
+            "name": "nativechecker.so",
+            "platform": "linux",
+            "archive": false
+        },
+        {
+            "name": "nativechecker.dll",
+            "platform": "windows",
+            "archive": false
+        }
+    ],
+    "runtime": {
+        "plugins": ["levcito/Nativechecker"]
+    }
+}
